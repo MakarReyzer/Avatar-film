@@ -166,7 +166,7 @@ header {
 
 .hero {
         height: 100vh;
-        background-image: url(/eseets/bground.png);
+        background-image: url(./eseets/bground.png);
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 330px;
@@ -192,7 +192,6 @@ header {
 
 .hero__text:not(:last-child) {
         margin-bottom: 40px;
-
 
 }
 
@@ -376,6 +375,7 @@ header {
         position: relative;
 }
 
+
 .footer__item::after{
         content: '';
         background-image: url(./eseets/lineone.svg);
@@ -387,6 +387,7 @@ header {
         transform: translateX(-75%);
 }
 
+
 .footer__item--big::after{
         content: '';
         width: 194px;
@@ -395,6 +396,7 @@ header {
 .footer__item:not(:last-child) {
         margin-bottom: 16px;
 }
+
 
 .footer__content {
         text-align: center;
